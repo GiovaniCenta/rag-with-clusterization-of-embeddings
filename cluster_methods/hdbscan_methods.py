@@ -2,67 +2,77 @@ import sys
 sys.path.append("..") # Adds higher directory to python modules path.
 import hdbscan
 from cluster_methods.hdbscan_methods import *
-from cluster_methods.umap_methods import *
-from cluster_methods.cluster_functions import *
+#from cluster_methods.umap_methods import *
 from utils.query_utils import *
 from utils.openai_utils import *
-from find_chunk_methods.search_functions import *
-from find_chunk_methods.find_chunks import *
 from utils.plot_utils import *
 
 from scipy.spatial.distance import euclidean
 import numpy as np
 
-def apply_hdbscan(df, min_cluster_size=5, min_samples=None, embedding_column_name='pca_components'):
+def apply_hdbscan(data,indexes, min_cluster_size=3, min_samples=None):
     # Preparar os dados para a clusterização: converter a coluna de componentes do PCA em um formato adequado
-    X_pca = np.vstack(df[embedding_column_name].values)
+    X_pca = np.vstack(data[:, indexes["pca_components"]])
     
-    # Aplicar HDBSCAN
+    # Aplicar HDBSCA
     clusterer = hdbscan.HDBSCAN(min_cluster_size=min_cluster_size, min_samples=min_samples)
     labels = clusterer.fit_predict(X_pca)
     
     # Adicionar os rótulos dos clusters ao DataFrame
-    df['cluster_label'] = labels
-    return clusterer, df
+    for i in range(data.shape[0]):
+        data[i, indexes['cluster_label']] = labels[i]
+        
+    
+    return clusterer, data
 
-def calculate_hdbscan_centroids_with_pca(df, embedding_column_name='pca_components'):
+def calculate_hdbscan_centroids_with_pca(data,indexes):
     # Assumindo que a função apply_hdbscan já foi aplicada e as etiquetas de clusters estão no df
     centroids = {}
-    _,df = apply_hdbscan(df)
-    unique_clusters = df['cluster_label'].unique()
+    centroid_document_map = {}
+    _,data = apply_hdbscan(data,indexes)
+    cluster_labels = data[:, indexes['cluster_label']]
+    unique_clusters = np.unique(cluster_labels)
     
-    # Processa clusters normais, excluindo ruído
+    
     for cluster in unique_clusters:
-        if cluster == -1:  # Ignora ruído nesta etapa
+        if cluster == -1:  # Ignore noise
             continue
-        cluster_df = df[df['cluster_label'] == cluster]
-        # Extrai os vetores PCA para os pontos no cluster atual
-        pca_vectors = np.vstack(cluster_df[embedding_column_name].values)
+        mask = cluster_labels == cluster
+        cluster_data = data[mask]
+        
+        # Extract PCA vectors for points in the current cluster
+        pca_vectors = np.vstack(cluster_data[:, indexes['pca_components']])
         centroid = pca_vectors.mean(axis=0)
         centroids[cluster] = centroid
+        centroid_document_map[cluster] = cluster,centroid 
     
-    # Trata dos pontos de ruído, agrupando-os por 'document_name'
-    noise_centroids = handle_noise_by_document(df, embedding_column_name)
+    # Optionally handle noise based on document name or other criteria
+    noise_centroids_dict = handle_noise_by_document(data, indexes)
+    centroid_document_map.update(noise_centroids_dict)
     
-    # Combina centróides dos clusters normais com os dos "clusters de ruído"
-    centroids.update(noise_centroids)
     
-    return centroids
+    return centroids, centroid_document_map
 
 
-
-def handle_noise_by_document(df, embedding_column_name='pca_components'):
+def handle_noise_by_document(data,indexes):
     centroids = {}
-    noise_df = df[df['cluster_label'] == -1]
-    document_names = noise_df['document_name'].unique()
     
+    noise_mask = data[:, indexes['cluster_label']] == -1
+    noise_data = data[noise_mask]
+    document_names = np.unique(noise_data[:,indexes['document_name']])
+    centroid_document_map = {}
     for document in document_names:
-        doc_df = noise_df[noise_df['document_name'] == document]
-        pca_vectors = np.vstack(doc_df[embedding_column_name].values)
-        centroid = pca_vectors.mean(axis=0)
-        # Cria um identificador de cluster único para estes novos "clusters" baseado no nome do documento
-        cluster_id = f'noise_{document}'
-        centroids[cluster_id] = centroid
-    
-    return centroids
+        # Crie uma máscara booleana onde a condição é verdadeira
+        mask = noise_data[:, indexes['document_name']] == document
+        # Use a máscara para filtrar as linhas
+        doc_data = noise_data[mask]
+        if doc_data.size > 0:
+            pca_vectors = np.vstack(doc_data[:, indexes['pca_components']])
+            centroid = pca_vectors.mean(axis=0)
+            cluster_id = f'noise_{document}'
+            centroids[cluster_id] = centroid
+            centroid_document_map[cluster_id] = cluster_id,centroid 
+
+    return centroid_document_map
+
 

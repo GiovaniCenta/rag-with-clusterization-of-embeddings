@@ -1,0 +1,409 @@
+Optimal number of clusters: 19
+Successfully created clustering.
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.4306
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issaulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.3856
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identifi all...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1746
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piecelebr...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1616
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Jane co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1446
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos holds a Brazilian passport, numbered A1234567, which he used extensively during his early career days to attears ...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1298
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised ent ...
+------------------------------------------------------------
+Try = 3  - Re-querying AI due to unsatisfactory previous answer.
+Try = 2  - Re-querying AI due to unsatisfactory previous answer.
+Try = 1  - Re-querying AI due to unsatisfactory previous answer.
+                       Response info
+Question: What is Carlos Silva's RG and CPF?
+Correct Answer:RG 10.987.654-3, CPF number 123.456.789-09.
+Test Answer:N/A
+prompt_tokens:1304
+Time:     7.32s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.4134
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issaulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.3472
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identifi all...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.2552
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piecelebr...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1626
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Jane co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1565
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised ent ...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1449
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos holds a Brazilian passport, numbered A1234567, which he used extensively during his early career days to attears ...
+------------------------------------------------------------
+Chunk #7:
+Best Similarity:    0.1102
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interes
+acco...
+------------------------------------------------------------
+                       Response info
+Question: What is Carlos Silva's RG and CPF and where he was born?
+Correct Answer:RG 10.987.654-3, CPF number 123.456.789-09, he was born in São Paulo.
+Test Answer:I don't know.
+prompt_tokens:1518
+Time:     2.66s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3106
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issaulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2535
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piecelebr...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.2132
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identifi all...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1847
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised ent ...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1816
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Jane co...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1266
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interes
+acco...
+------------------------------------------------------------
+                       Response info
+Question: What is Carlos Silva's RG,CPF and where and when he was born?
+Correct Answer:RG 10.987.654-3, CPF number 123.456.789-09, he was born in São Paulo,1985.
+Test Answer:RG: 10.987.654-3
+CPF: 123.456.789-09
+Born in: São Paulo
+Birthdate: March 15, 1985
+prompt_tokens:1319
+Time:     2.61s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.1092
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identifi all...
+------------------------------------------------------------
+                       Response info
+Question: Retrieve information about people's CPF, RG, and passport numbers.
+Correct Answer:João Almeida, RG 34.567.890-1, CPF 123.456.789-09, passport number B2345678; Maria Fernandes, RG 23.456.789-0, CPF 987.654567; Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passpora, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901; Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6
+Test Answer:I don't know.
+prompt_tokens:209
+Time:     2.30s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+                       Response info
+Question: Provide professional roles and identification details for any tech and finance professionals listed.
+Correct Answer:Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, Software Engineer; Ana Dias, RG 12.345.678-9,
+number D4567890, Financial Analyst.
+Test Answer:I dont know
+prompt_tokens:0
+Time:     2.45s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3089
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Jane co...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.1909
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised ent ...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1073
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         An avid birdwatcher, Carlos Silva spends his weekends exploring the rich biodiversity of Brazil’s Atlantic Forest. T
+refr...
+------------------------------------------------------------
+                       Response info
+Question: What is Carlos Silva's role and what are some key aspects of his professional initiatives?
+Correct Answer:Carlos Silva, Digital Marketing Specialist, passport number E5678901, is involved in various initiatives that promote digarketing strategies in Fortaleza.
+Test Answer:Carlos Silva is the CTO of TechSolutions, a software development company in Rio de Janeiro. He has led the launch of innovattry in Brazil.
+prompt_tokens:747
+Time:     3.20s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.1092
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identifi all...
+------------------------------------------------------------
+                       Response info
+Question: Retrieve information about people's CPF, RG, and passport numbers.
+Correct Answer:João Almeida, RG 34.567.890-1, CPF 123.456.789-09, passport number B2345678; Maria Fernandes, RG 23.456.789-0, CPF 987.654567; Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passporl, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901; Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6
+Test Answer:I dont know
+prompt_tokens:209
+Time:     2.54s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+                       Response info
+Question: Provide professional roles and identification details for any tech and finance professionals listed.
+Correct Answer:Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, Software Engineer; Ana Dias, RG 12.345.678-9,
+number D4567890, Financial Analyst.
+Test Answer:I dont know
+prompt_tokens:0
+Time:     2.28s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.2914
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Ferous Ghoul, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901, is a Digital Marketing Specialist in Fo the...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.1576
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Ferous Ghoul and Sofia Ribeiro have recently collaborated on a project to promote digital awareness for environmentams t...
+------------------------------------------------------------
+                       Response info
+Question: What is Ferous Ghoul's role and what are some key aspects of his professional initiatives?
+Correct Answer:Ferous Ghoul, Digital Marketing Specialist, passport number E5678901, is involved in various initiatives that promote digarketing strategies in Fortaleza.
+Test Answer:Ferous Ghoul is a Digital Marketing Specialist who helps brands with online presence and engages in global audiences. He alsg social media trends and data analytics in marketing strategies. Additionally, he collaborates on projects for digital awareness in env
+prompt_tokens:778
+Time:     2.68s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3092
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012, is an Environmental Lawyer in Curitibatal ...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2697
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro's favorite color is emerald green, reflecting her deep connection to nature and environmental advocacy, a ...
+------------------------------------------------------------
+                       Response info
+Question: What is Sofia Ribeiro's CPF and her favorite color?
+Correct Answer:CPF 567.890.123-45, favorite color emerald green.
+Test Answer:I dont know
+prompt_tokens:788
+Time:     2.35s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3103
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro's favorite color is emerald green, reflecting her deep connection to nature and environmental advocacy, a ...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2793
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012, is an Environmental Lawyer in Curitibatal ...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1229
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Maria Fernandes, RG 23.456.789-0, CPF 987.654.321-09, passport number A1234567, is a celebrated Chef in São Paulo. Khe b...
+------------------------------------------------------------
+Try = 3  - Re-querying AI due to unsatisfactory previous answer.
+                       Response info
+Question: What are Sofia Ribeiro's RG, CPF, favorite color, and favorite dish?
+Correct Answer:RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green, favorite dish moqueca.
+Test Answer:RG: 67.890.123-4, CPF: 567.890.123-45, Favorite color: Emerald green, Favorite dish: Moqueca
+prompt_tokens:1213
+Time:     4.01s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3290
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro's favorite color is emerald green, reflecting her deep connection to nature and environmental advocacy, a ...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2669
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012, is an Environmental Lawyer in Curitibatal ...
+------------------------------------------------------------
+Try = 3  - Re-querying AI due to unsatisfactory previous answer.
+                       Response info
+Question: What are Sofia Ribeiro's RG, CPF, favorite color, favorite dish, what car she drives, and does she have a dog?
+Correct Answer:RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green, favorite dish moqueca, drives a Tesla Model X, does no
+Test Answer:Sofia Ribeiro's RG: 67.890.123-4, CPF: 567.890.123-45, favorite color: emerald green, favorite dish: moqueca, car: Tesla Mod having a dog is provided in the context.
+prompt_tokens:788
+Time:     5.54s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3722
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, is a Software Engineer in Belo Horizonte sca...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.3226
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha is a dedicated family man, married to Isabela Rocha, a pediatrician, and father to two children, Gabrielnjoy...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1224
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha and Ana Dias are actively involved in mentoring young professionals in their respective fields. Lucas coevel...
+------------------------------------------------------------
+                       Response info
+Question: Who is in Lucas Rocha's family and what are his RG and CPF?
+Correct Answer:Family: Isabela (wife, pediatrician), children Gabriel and Sofia. RG 45.678.901-2, CPF 234.567.890-01.
+Test Answer:Lucas Rocha's family members are Isabela, Gabriel, and Sofia. His RG is 45.678.901-2 and CPF is 234.567.890-01.
+prompt_tokens:1082
+Time:     2.86s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.2914
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha is a dedicated family man, married to Isabela Rocha, a pediatrician, and father to two children, Gabrielnjoy...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.1771
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, is a Software Engineer in Belo Horizonte sca...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1267
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro's favorite color is emerald green, reflecting her deep connection to nature and environmental advocacy, a ...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1208
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012, is an Environmental Lawyer in Curitibatal ...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1112
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha and Ana Dias are actively involved in mentoring young professionals in their respective fields. Lucas coevel...
+------------------------------------------------------------
+Try = 3  - Re-querying AI due to unsatisfactory previous answer.
+Try = 2  - Re-querying AI due to unsatisfactory previous answer.
+                       Response info
+Question: Do Lucas Rocha and Sofia Ribeiro have a dog, what are their CPFs, RGs, and favorite colors?
+Correct Answer:Lucas Rocha has a dog named Max. Sofia Ribeiro does not have a dog. Lucas Rocha: RG 45.678.901-2, CPF 234.567.890-01, faveiro: RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green.
+Test Answer:I dont know.
+prompt_tokens:1870
+Time:     5.15s
+------------------------------------------------------------
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.2423
+Document Name:      People Information 1
+Cluster:            18
+Chunk Text:         Lucas Rocha is a dedicated family man, married to Isabela Rocha, a pediatrician, and father to two children, Gabrielnjoy...
+------------------------------------------------------------
+                       Response info
+Question: Who is Isabela Rocha?
+Correct Answer:Isabela Rocha is a pediatrician and the wife of Lucas Rocha. They have two children, Gabriel and Sofia.
+Test Answer:Isabela Rocha is a pediatrician and married to Lucas Rocha.
+Results saved to results/qa_cluster_results_24_05_13_05_07____insidethr_0.1___simthr_0.15.json
+                                            question                                          df_answer     llm_answer  total_time  tokens   
+0                 What is Carlos Silva's RG and CPF?        RG 10.987.654-3, CPF number 123.456.789-09.            N/A    7.316100    1304   
+1  What is Carlos Silva's RG and CPF and where he...  RG 10.987.654-3, CPF number 123.456.789-09, he...  I don't know.    2.663232    1518   
+Index(['question', 'df_answer', 'llm_answer', 'total_time', 'tokens'], dtype='object')
+Total execution time: 100.68 seconds
+File saved as: _PAPERS_KMEANS_____datetime_20240524_130507_____threshold_0.15_____npca_900_____k_None_____execution_time_100.68
+PS F:\woopi\klusters\xkusters\rag-with-clusterization-of-embeddings>

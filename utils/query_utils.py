@@ -7,11 +7,15 @@ import plotly.graph_objects as go
 
 import sys
 sys.path.append("..") # Adds higher directory to python modules path.
-from utils.openai_utils import embed_with_openai
+from utils.openai_utils import embed_with_openai,embbed_with_ai_gateway
 
 
 def create_query_embedding(query_text):
     query_embedding = embed_with_openai(query_text)  # Get embedding using OpenAI
+    return query_embedding
+
+def create_query_embedding_ai_gateway(query_text):
+    query_embedding = embbed_with_ai_gateway(query_text)  # Get embedding using OpenAI
     return query_embedding
 
 def create_query_pca(pca,scaler,query_embedding):

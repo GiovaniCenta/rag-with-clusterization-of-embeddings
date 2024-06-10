@@ -1,0 +1,452 @@
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.2761
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identification number is essential for all...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2746
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1810
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos holds a Brazilian passport, numbered A1234567, which he used extensively during his early career days to attend various international seminars ...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1604
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1547
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1215
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #7:
+Best Similarity:    0.1050
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+                       Response info
+Question: Can you provide Carlos Silva’s CPF, RG, and passport numbers, and detail his professional role and family relationships?
+Correct Answer:Carlos Silva, born in São Paulo in 1985, holds a Brazilian CPF number 123.456.789-09, RG number 10.987.654-3, and passport number 
+A1234567. As the CTO of TechSolutions in Rio de Janeiro, he has been influential in technological innovations. His family includes his daughter, 
+Ana Silva, and his mother, Maria Silva, who have been significant in his personal and professional life.
+Test Answer:CPF: 123.456.789-09
+RG: 10.987.654-3
+Passport: A1234567
+Professional Role: CTO of TechSolutions
+Family Relationships: Mother - Maria Silva, Daughter - Ana Silva
+prompt_tokens:1518
+Time:     2.95s
+
+
+
+
+
+
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3973
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identification number is essential for all...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2879
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1701
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1628
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1585
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1365
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos holds a Brazilian passport, numbered A1234567, which he used extensively during his early career days to attend various international seminars ...
+------------------------------------------------------------
+                       Response info
+Question: Can you provide Carlos Silva’s CPF?
+Correct Answer:CPF number 123.456.789-09.
+Test Answer:123.456.789-09
+prompt_tokens:1304
+Time:     2.26s
+
+
+
+
+
+
+
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.2754
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.1722
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1659
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1336
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1060
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+                       Response info
+Question: Can you provide Carlos Silva’s RG?
+Correct Answer:RG 10.987.654-3.
+Test Answer:10.987.654-3
+prompt_tokens:1110
+Time:     2.43s
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.2967
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2565
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1839
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1826
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1201
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+                       Response info
+Question: Where was Carlos Silva born?
+Correct Answer:Carlos Silva, born in São Paulo.
+Test Answer:São Paulo
+prompt_tokens:1110
+Time:     2.35s
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3943
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2318
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1744
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1665
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1013
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+                       Response info
+Question: When was Carlos Silva born?
+Correct Answer:1985
+Test Answer:Carlos Silva was born on March 15, 1985.
+prompt_tokens:1110
+Time:     2.78s
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3471
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2298
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1775
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1665
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1015
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+                       Response info
+Question: When and where was Carlos Silva born?
+Correct Answer:São Paulo,1985
+Test Answer:Carlos Silva was born on March 15, 1985, in São Paulo.
+prompt_tokens:1110
+Time:     2.57s
+------------------------------------------------------------
+Calculating median distance threshold...
+
+
+
+
+
+
+
+
+
+ - - - -  - - - - - - - - - - Problema CPF RG  - - - -  - - - - - - - - - -
+
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.4332
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.3880
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identification number is essential for all...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.1764
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1633
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1463
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos holds a Brazilian passport, numbered A1234567, which he used extensively during his early career days to attend various international seminars ...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1315
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+                       Response info
+Question: What is Carlos Silva's RG and CPF?
+Correct Answer:RG 10.987.654-3, CPF number 123.456.789-09.
+Test Answer:N/A
+prompt_tokens:1304
+Time:     2.26s
+
+
+
+
+
+
+
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.4160
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.3495
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identification number is essential for all...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.2573
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1645
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1583
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1467
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos holds a Brazilian passport, numbered A1234567, which he used extensively during his early career days to attend various international seminars ...
+------------------------------------------------------------
+Chunk #7:
+Best Similarity:    0.1119
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+                       Response info
+Question: What is Carlos Silva's RG and CPF and where he was born?
+Correct Answer:RG 10.987.654-3, CPF number 123.456.789-09, he was born in São Paulo.
+Test Answer:Carlos Silva's RG (Registro Geral) number is 10.987.654-3, his CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09, and he was born in São Paulo.
+prompt_tokens:1518
+Time:     3.62s
+------------------------------------------------------------
+Calculating median distance threshold...
+                      Best Chunk Infos
+------------------------------------------------------------
+Chunk #1:
+Best Similarity:    0.3154
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         The RG (Registro Geral) of Carlos Silva, number 10.987.654-3, is his primary identity document in Brazil. It was issued in his home state of São Paulo...
+------------------------------------------------------------
+Chunk #2:
+Best Similarity:    0.2580
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva, born on March 15, 1985, in São Paulo, has become renowned in his field. His birth date, a common piece of personal data, is often celebr...
+------------------------------------------------------------
+Chunk #3:
+Best Similarity:    0.2174
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         As a citizen of Brazil, Carlos Silva's CPF (Cadastro de Pessoas Físicas) number is 123.456.789-09. This tax identification number is essential for all...
+------------------------------------------------------------
+Chunk #4:
+Best Similarity:    0.1887
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva’s mother, Maria Silva, has been a significant influence in his life. Born Maria de Andrade, she raised Carlos in a nurturing environment ...
+------------------------------------------------------------
+Chunk #5:
+Best Similarity:    0.1857
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Professionally, Carlos Silva is the CTO of TechSolutions, a leading software development company based in Rio de Janeiro. Under his leadership, the co...
+------------------------------------------------------------
+Chunk #6:
+Best Similarity:    0.1304
+Document Name:      Profile of Carlos Silva
+Cluster:            18
+Chunk Text:         Carlos Silva is a proud father to a daughter, Ana Silva. Born on June 10, 2010, Ana has already shown a keen interest in her 
+father’s work, often acco...
+------------------------------------------------------------
+                       Response info
+Question: What is Carlos Silva's RG,CPF and where and when he was born?
+Correct Answer:RG 10.987.654-3, CPF number 123.456.789-09, he was born in São Paulo,1985.
+Test Answer:RG: 10.987.654-3
+CPF: 123.456.789-09
+Born in: São Paulo, March 15, 1985
+prompt_tokens:1319
+Time:     2.78s
+------------------------------------------------------------
+Results saved to results/qa_cluster_results_22_05_13_30_37____insidethr_0.1___simthr_None.json
+                                            question                                          df_answer  ... total_time  tokens
+0  What was achieved with the use of AI-designed ...  The first successful precision editing of the ...  ...    3.92739   12390
+1  What can be achieved by fine-tuning language m...  They can generate novel proteins adhering to t...  ...    2.98613    5476

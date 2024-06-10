@@ -1,0 +1,578 @@
+[
+    {
+        "answers": {
+            "answer_start": [
+                1512
+            ],
+            "text": "The first successful precision editing of the human genome with a programmable gene editor designed with AI."
+        },
+        "context": "Here, using large language models (LLMs) trained on biological diversity at scale, we demonstrate the first successful precision editing of the human genome with a programmable gene editor designed with AI.",
+        "id": 2,
+        "question": "What was achieved with the use of AI-designed gene editors?",
+        "title": "Design of highly functional genome editors by modeling the universe of CRISPR-Cas sequences"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                2968
+            ],
+            "text": "They can generate novel proteins adhering to the functional constraints of their family yet diverging significantly in sequence space."
+        },
+        "context": "Subsequent fine-tuning of these models yields family-specific specialists that generate novel proteins adhering to the functional constraints of their family yet diverging significantly in sequence space.",
+        "id": 3,
+        "question": "What can be achieved by fine-tuning language models on diverse protein sequences?",
+        "title": "Design of highly functional genome editors by modeling the universe of CRISPR-Cas sequences"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                6205
+            ],
+            "text": "CRISPR-associated protein families carry out a variety of distinct roles through a common set of domains and structural motifs."
+        },
+        "context": "Although CRISPR-Cas proteins carry out a variety of distinct roles, they often do so through a common set of domains and structural motifs.",
+        "id": 4,
+        "question": "How do CRISPR-Cas proteins achieve their functionality?",
+        "title": "Design of highly functional genome editors by modeling the universe of CRISPR-Cas sequences"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                6595
+            ],
+            "text": "By aligning each sequence to the CRISPR-Cas Atlas using BLAST."
+        },
+        "context": "To assign the generated sequences to CRISPR-Cas families, we aligned each sequence to the CRISPR-Cas Atlas using BLAST, selecting the family of the best alignment for classification.",
+        "id": 5,
+        "question": "How are sequences classified into their respective CRISPR-Cas families?",
+        "title": "Design of highly functional genome editors by modeling the universe of CRISPR-Cas sequences"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Adapted exercises are designed to accommodate individual differences and improve engagement and performance in sports activities."
+        },
+        "context": "The study focused on adapted basketball exercises to better suit the needs of overweight students, aiming to reduce the perceived difficulty and enhance the enjoyment of physical activities.",
+        "id": 1,
+        "question": "What are adapted exercises?",
+        "title": "The impact of adapted exercises in basketball"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Physical enjoyment in sports can be enhanced through activities that are appropriately adapted to the participants' capabilities and interests."
+        },
+        "context": "Participants in the adapted basketball program reported increased enjoyment, highlighting the benefits of customized exercise routines.",
+        "id": 2,
+        "question": "How can physical enjoyment in sports be increased?",
+        "title": "The impact of adapted exercises in basketball"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Perceived difficulty in physical activities can be significantly reduced by tailoring exercises to the individual's fitness level and preferences."
+        },
+        "context": "The adapted basketball exercises were specifically designed to lower the perceived difficulty for overweight students, making the activities more accessible and enjoyable.",
+        "id": 3,
+        "question": "What can reduce perceived difficulty in physical activities?",
+        "title": "The impact of adapted exercises in basketball"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Adaptations in physical education are crucial for accommodating diverse student needs and enhancing learning outcomes."
+        },
+        "context": "Adapted basketball exercises were implemented to better integrate overweight students into physical activities, promoting inclusivity.",
+        "id": 4,
+        "question": "Why are adaptations important in physical education?",
+        "title": "The impact of adapted exercises in basketball"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Engaging students in enjoyable and achievable physical activities can lead to a more positive attitude towards sports and education."
+        },
+        "context": "The study showed that adapted basketball exercises led to increased enjoyment and reduced difficulty, improving students' attitudes towards physical education.",
+        "id": 5,
+        "question": "How can student attitudes towards physical education be improved?",
+        "title": "The impact of adapted exercises in basketball"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Performance in sports can vary significantly under different weather conditions, with extreme weather potentially impairing both physical and cognitive abilities."
+        },
+        "context": "The research analyzed how variations in weather conditions like temperature and precipitation impact the performance of athletes in soccer.",
+        "id": 6,
+        "question": "How does weather affect sports performance?",
+        "title": "Weather shocks and athlete performance: Evidence from the Chinese Soccer"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Athletes can experience a decline in performance during adverse weather conditions due to physiological and psychological stresses."
+        },
+        "context": "Findings from the study indicated that extreme temperatures and heavy precipitation negatively affect the performance metrics of soccer players.",
+        "id": 7,
+        "question": "Why might athletes perform poorly in bad weather?",
+        "title": "Weather shocks and athlete performance: Evidence from the Chinese Soccer"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "To minimize the impact of adverse weather, athletes can train in varied weather conditions to better adapt and maintain performance levels."
+        },
+        "context": "The study suggested that exposure to different weather conditions could help athletes adapt and maintain performance when faced with weather shocks.",
+        "id": 8,
+        "question": "How can athletes minimize the impact of adverse weather?",
+        "title": "Weather shocks and athlete performance: Evidence from the Chinese Soccer"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Older athletes may be more susceptible to the effects of extreme weather, potentially due to longer recovery times and less physiological resilience."
+        },
+        "context": "The analysis showed that older players experienced more pronounced negative effects from extreme weather conditions in soccer matches.",
+        "id": 9,
+        "question": "Why are older athletes more affected by extreme weather?",
+        "title": "Weather shocks and athlete performance: Evidence from the Chinese Soccer"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Adapting sports policies to account for weather conditions can help ensure the safety and optimal performance of athletes during competitions."
+        },
+        "context": "The paper proposed policy suggestions to mitigate the impact of weather shocks on athletes, emphasizing the need for strategic planning in sports management.",
+        "id": 10,
+        "question": "What role do sports policies play in dealing with weather conditions?",
+        "title": "Weather shocks and athlete performance: Evidence from the Chinese Soccer"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Gemini models can facilitate personalized treatment plans by adapting to the unique genetic and environmental factors of individual patients."
+        },
+        "context": "The study discusses the use of Gemini models in creating highly personalized medical treatments that consider a person's unique genetic makeup.",
+        "id": 1,
+        "question": "How can Gemini models transform personalized medicine?",
+        "title": "Capabilities of Gemini Models in Medicine"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "By analyzing genetic data alongside environmental factors, Gemini models can predict disease risk with greater accuracy."
+        },
+        "context": "Gemini models integrate genetic information with environmental data to enhance the prediction accuracy of disease susceptibility.",
+        "id": 2,
+        "question": "What role do Gemini models play in disease prediction?",
+        "title": "Capabilities of Gemini Models in Medicine"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Gemini models enhance drug development by predicting responses based on genetic variations, leading to more effective and safer medications."
+        },
+        "context": "The paper highlights the application of Gemini models in pharmacogenomics to predict patient responses to drugs, thereby aiding in the development of tailored medications.",
+        "id": 3,
+        "question": "How do Gemini models improve drug development?",
+        "title": "Capabilities of Gemini Models in Medicine"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Gemini models can identify potential genetic markers for diseases, aiding in earlier diagnosis and better therapeutic strategies."
+        },
+        "context": "Through the identification of genetic markers, Gemini models help in the early diagnosis of diseases, potentially leading to more effective interventions.",
+        "id": 4,
+        "question": "What is the significance of genetic markers in Gemini models?",
+        "title": "Capabilities of Gemini Models in Medicine"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "In clinical trials, Gemini models optimize patient selection and treatment protocols, enhancing the efficacy and efficiency of research."
+        },
+        "context": "Gemini models are used in clinical trials to tailor treatment protocols to individual genetic profiles, improving the outcomes and efficiency of these trials.",
+        "id": 5,
+        "question": "What benefits do Gemini models offer in clinical trials?",
+        "title": "Capabilities of Gemini Models in Medicine"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Kolmogorov–Arnold Networks (KANs) are designed to enhance model interpretability and accuracy by using learnable activation functions and avoiding linear weight matrices."
+        },
+        "context": "KANs represent a novel approach in neural network architecture, employing learnable activation functions on edges and replacing traditional linear weight matrices with spline functions.",
+        "id": 6,
+        "question": "What are the design features of KANs that improve model performance?",
+        "title": "KAN: Kolmogorov–Arnold Networks"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "KANs achieve better scaling and accuracy than traditional models, making them suitable for complex problem-solving in various fields, including physical and mathematical sciences."
+        },
+        "context": "The paper demonstrates how KANs outperform traditional neural network models like MLPs by leveraging their unique architecture for more effective problem-solving.",
+        "id": 7,
+        "question": "In what areas do KANs demonstrate superior performance?",
+        "title": "KAN: Kolmogorov–Arnold Networks"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "KANs offer a significant advantage in interpretability, allowing for easier visualization and interaction with the models, which can facilitate scientific discoveries."
+        },
+        "context": "KANs are noted for their interpretability, which is enhanced by their architecture that allows for intuitive visualization and user interaction.",
+        "id": 8,
+        "question": "How do KANs contribute to model interpretability?",
+        "title": "KAN: Kolmogorov–Arnold Networks"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "KANs utilize a unique design of learnable activation functions and summing nodes, setting them apart from traditional neural networks that use fixed activation functions."
+        },
+        "context": "KANs differentiate themselves from traditional neural network architectures by employing learnable activation functions and a sum operation on nodes, avoiding fixed activation functions.",
+        "id": 9,
+        "question": "What distinguishes KANs from traditional neural network models?",
+        "title": "KAN: Kolmogorov–Arnold Networks"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "By employing a fundamentally different architecture involving splines and avoiding traditional weight matrices, KANs provide a novel method for data fitting and solving complex equations."
+        },
+        "context": "KANs apply a novel architectural approach to improve data fitting and problem-solving, utilizing splines and a unique configuration of activation functions.",
+        "id": 10,
+        "question": "What novel methods do KANs use for problem-solving?",
+        "title": "KAN: Kolmogorov–Arnold Networks"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Alex Johnson, a seasoned software engineer specializing in machine learning, contributes to tech projects and enhances predictive analytics for e-commerce platforms. Outside of work, he is an avid rock climber and environmental activist, participating in habitat restoration. Additionally, Alex educates on software development at universities, cooks signature dishes blending Asian and European techniques, and writes on the ethical implications of AI in modern industries."
+        },
+        "context": "Alex Johnson, a seasoned software engineer with over a decade of experience, has contributed significantly to various high-profile projects in the tech industry. Specializing in machine learning, Alex has developed several innovative algorithms that have been integral to enhancing predictive analytics for e-commerce platforms. His recent work involves using AI to optimize user experience designs, leading to increased customer satisfaction and engagement. Outside of his professional life, Alex Johnson is an avid rock climber and environmental activist. His passion for the outdoors has led him to participate in numerous conservation projects, focusing on habitat restoration. Alex often spends his weekends volunteering with local organizations to clean up and restore natural sites around his city, advocating for environmental sustainability and education. Alex Johnson has always been fascinated by the intersection of technology and education. He regularly conducts workshops and seminars at various universities, sharing his knowledge and experiences in software development and machine learning. Alex's initiatives aim to inspire the next generation of engineers, emphasizing the importance of ethical considerations in technology. A lesser-known fact about Alex Johnson is his talent in culinary arts. A self-taught chef, Alex enjoys exploring the culinary traditions of different cultures and incorporates these influences into his cooking. His signature dishes, which blend Asian and European techniques, have been featured at community charity events, earning him recognition in his local culinary scene. Alex Johnson is also a published author, having written several articles and a book on the impact of artificial intelligence on modern industries. His publications discuss the ethical, economic, and social implications of AI, drawing on his extensive experience in the field. Alex's insights are highly regarded, making him a respected voice in discussions about the future of technology.",
+        "id": 21,
+        "question": "What are the professional achievements and personal interests of Alex Johnson that contribute to his multifaceted impact on technology, community, and culture?",
+        "title": "New Entry 5P 5O"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Urban green spaces offer significant benefits by enhancing urban aesthetics, improving mental and physical health, promoting social interactions, and delivering economic advantages. They reduce urban heat, improve air quality, provide recreational areas, foster community interaction, encourage physical activities, increase property values, and help with environmental sustainability. These spaces are integral in urban planning to create healthier and more sustainable urban environments."
+        },
+        "context": "Urban green spaces are essential elements of urban ecology, providing not only aesthetic enhancements but also crucial environmental benefits. These areas help mitigate urban heat island effects, improve air quality, and offer recreational spaces for city dwellers. They serve as critical habitats for urban wildlife and offer natural experiences to residents and visitors alike. Access to green spaces in urban areas can significantly boost mental health. Studies have shown that regular exposure to greenery reduces stress, anxiety, and depression. Green spaces offer a sanctuary from the stress of urban life and provide settings for physical activities, social interaction, and relaxation. Green spaces are linked to numerous physical health benefits. They encourage physical activity among all age groups, reduce hypertension, and improve overall cardiovascular health. Parks and recreational areas are integral to promoting healthier lifestyles in dense urban settings. Urban parks and gardens play a vital role in fostering community ties and promoting social interactions among diverse groups. These spaces host public events, sports activities, and cultural celebrations that bring together people from various backgrounds, enhancing community cohesion. Investing in green spaces can boost local economies. Well-maintained parks and gardens increase property values, attract tourists, and reduce healthcare costs by fostering healthier populations. They also create job opportunities in urban planning, landscaping, and maintenance.",
+        "id": 853,
+        "question": "What multifaceted impacts do urban green spaces have on cities and their inhabitants?",
+        "title": "New Entry 5P 5O"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Elena Martinez, an environmental scientist with a Ph.D. from Stanford, has innovated solar panel technologies, consulted on UN environmental policies, authored 'Green Futures', and founded the 'Green Earth Initiative' focusing on wildlife conservation."
+        },
+        "context": "Elena Martinez is a renowned environmental scientist known for her pioneering research in renewable energy solutions, enhancing solar panel efficiency adopted by industries worldwide. A Stanford Ph.D. graduate, her dissertation received the Turner Award. She has consulted for the UN on sustainable urban policies, authored the book 'Green Futures', and speaks internationally. Beyond her professional achievements, she founded the 'Green Earth Initiative' for wildlife conservation.",
+        "id": 1,
+        "question": "Can you describe Elena Martinez's professional background, her contributions to environmental policy, her publications, and her philanthropic efforts?",
+        "title": "New Entry 5P 5O"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Thomas Rivera, a cybersecurity expert with MIT credentials, has been recognized with the Cyber Pioneer Award, authored significant theses on quantum encryption, developed advanced malware analysis tools, and contributed to international cybersecurity policy. He also leads an academy focused on cyber defense and has innovated AI applications in cybersecurity."
+        },
+        "context": "Thomas Rivera is a leading cybersecurity expert, acknowledged for his predictive algorithms that enhance corporate defenses against cyber-attacks and for his work safeguarding infrastructure. An MIT graduate, his seminal work on quantum encryption has influenced modern cryptographic practices. Rivera has received accolades such as the Cyber Pioneer Award, developed patented antivirus programs, and contributed to UN cybersecurity policies. His proactive approach extends to education, founding an academy that partners globally to improve security postures, and pioneering AI to tackle cyber threats more effectively.",
+        "id": 1,
+        "question": "Can you describe Thomas Rivera's academic achievements, professional recognitions, contributions to cybersecurity technologies, his role in international security policy, and his innovative approaches to education and artificial intelligence in cybersecurity?",
+        "title": "Comprehensive Profile of Thomas Rivera"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Carlos Silva, born in São Paulo in 1985, holds a Brazilian CPF number 123.456.789-09, RG number 10.987.654-3, and passport number A1234567. As the CTO of TechSolutions in Rio de Janeiro, he has been influential in technological innovations. His family includes his daughter, Ana Silva, and his mother, Maria Silva, who have been significant in his personal and professional life."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "Can you provide Carlos Silva’s CPF, RG, and passport numbers, and detail his professional role and family relationships?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "CPF number 123.456.789-09."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "Can you provide Carlos Silva’s CPF?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "RG 10.987.654-3."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "Can you provide Carlos Silva’s RG?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Carlos Silva, born in São Paulo."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "Where was Carlos Silva born?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "1985"
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "When was Carlos Silva born?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "São Paulo,1985"
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "When and where was Carlos Silva born?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "RG 10.987.654-3, CPF number 123.456.789-09."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "What is Carlos Silva's RG and CPF?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "RG 10.987.654-3, CPF number 123.456.789-09, he was born in São Paulo."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "What is Carlos Silva's RG and CPF and where he was born?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "RG 10.987.654-3, CPF number 123.456.789-09, he was born in São Paulo,1985."
+        },
+        "context": "Carlos Silva, a renowned technology leader and CTO of TechSolutions, is known for his significant contributions to the tech industry in Brazil. Born on March 15, 1985, in São Paulo, he is identified by CPF 123.456.789-09, RG 10.987.654-3, and passport A1234567. His professional journey is complemented by a strong family presence, including his influential mother, Maria Silva, and his daughter, Ana Silva, who inspire his dedication to advancing technology and community engagement.",
+        "id": 2,
+        "question": "What is Carlos Silva's RG,CPF and where and when he was born?",
+        "title": "Comprehensive Identification and Profile of Carlos Silva"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "João Almeida, RG 34.567.890-1, CPF 123.456.789-09, passport number B2345678; Maria Fernandes, RG 23.456.789-0, CPF 987.654.321-09, passport number A1234567; Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890; Carlos Silva, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901; Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012."
+        },
+        "context": "This document includes multiple profiles such as João Almeida, an Architect with RG 34.567.890-1, CPF 123.456.789-09, passport B2345678; Maria Fernandes, a Chef with RG 23.456.789-0, CPF 987.654.321-09, passport A1234567; Lucas Rocha, a Software Engineer with RG 45.678.901-2, CPF 234.567.890-01, passport C3456789; Ana Dias, a Financial Analyst with RG 12.345.678-9, CPF 345.678.901-23, passport D4567890; Carlos Silva, a Digital Marketing Specialist with RG 56.789.012-3, CPF 456.789.012-34, passport E5678901; and Sofia Ribeiro, an Environmental Lawyer with RG 67.890.123-4, CPF 567.890.123-45, passport F6789012.",
+        "id": 898,
+        "question": "Retrieve information about people's CPF, RG, and passport numbers.",
+        "title": "People Information 1"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Carlos Silva, Digital Marketing Specialist, passport number E5678901, is involved in various initiatives that promote digital literacy and innovative marketing strategies in Fortaleza."
+        },
+        "context": "Carlos Silva, a prominent figure in digital marketing, holds a passport number E5678901 and has spearheaded several successful campaigns that have significantly enhanced online engagement for multiple brands. His initiatives focus on incorporating cutting-edge digital strategies to improve market reach and consumer interaction.",
+        "id": 900,
+        "question": "What is Carlos Silva's role and what are some key aspects of his professional initiatives?",
+        "title": "People Information 1"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "João Almeida, RG 34.567.890-1, CPF 123.456.789-09, passport number B2345678; Maria Fernandes, RG 23.456.789-0, CPF 987.654.321-09, passport number A1234567; Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890; Ferous Ghoul, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901; Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012."
+        },
+        "context": "This document includes multiple profiles such as João Almeida, an Architect with RG 34.567.890-1, CPF 123.456.789-09, passport B2345678; Maria Fernandes, a Chef with RG 23.456.789-0, CPF 987.654.321-09, passport A1234567; Lucas Rocha, a Software Engineer with RG 45.678.901-2, CPF 234.567.890-01, passport C3456789; Ana Dias, a Financial Analyst with RG 12.345.678-9, CPF 345.678.901-23, passport D4567890; Ferous Ghoul, a Digital Marketing Specialist with RG 56.789.012-3, CPF 456.789.012-34, passport E5678901; and Sofia Ribeiro, an Environmental Lawyer with RG 67.890.123-4, CPF 567.890.123-45, passport F6789012.",
+        "id": 898,
+        "question": "Retrieve information about people's CPF, RG, and passport numbers.",
+        "title": "People Information 1"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, Software Engineer; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890, Financial Analyst."
+        },
+        "context": "Lucas Rocha and Ana Dias are key figures in their respective fields. Lucas Rocha, a Software Engineer with RG 45.678.901-2, CPF 234.567.890-01, and passport number C3456789, is known for his expertise in developing scalable applications. Ana Dias, a Financial Analyst with RG 12.345.678-9, CPF 345.678.901-23, and passport number D4567890, provides critical investment advice and market analysis.",
+        "id": 899,
+        "question": "Provide professional roles and identification details for any tech and finance professionals listed.",
+        "title": "People Information 1"
+    },
+    {
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Ferous Ghoul, Digital Marketing Specialist, passport number E5678901, is involved in various initiatives that promote digital literacy and innovative marketing strategies in Fortaleza."
+        },
+        "context": "Ferous Ghoul, a prominent figure in digital marketing, holds a passport number E5678901 and has spearheaded several successful campaigns that have significantly enhanced online engagement for multiple brands. His initiatives focus on incorporating cutting-edge digital strategies to improve market reach and consumer interaction.",
+        "id": 900,
+        "question": "What is Ferous Ghoul's role and what are some key aspects of his professional initiatives?",
+        "title": "People Information 1"
+    },
+    {
+        "id": 898,
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "CPF 567.890.123-45, favorite color emerald green."
+        },
+        "context": "Sofia Ribeiro's favorite color is emerald green, reflecting her deep connection to nature and environmental advocacy. She is an Environmental Lawyer with CPF 567.890.123-45 and passport number F6789012.",
+        "question": "What is Sofia Ribeiro's CPF and her favorite color?",
+        "title": "People Information 1"
+    },
+    {
+        "id": 899,
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green, favorite dish moqueca."
+        },
+        "context": "Sofia Ribeiro's favorite color is emerald green and her favorite dish is moqueca. She has RG 67.890.123-4 and CPF 567.890.123-45.",
+        "question": "What are Sofia Ribeiro's RG, CPF, favorite color, and favorite dish?",
+        "title": "People Information 1"
+    },
+    {
+        "id": 900,
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green, favorite dish moqueca, drives a Tesla Model X, does not have a dog."
+        },
+        "context": "Sofia Ribeiro, an Environmental Lawyer, enjoys moqueca as her favorite dish and drives a Tesla Model X. Her favorite color is emerald green. She has RG 67.890.123-4 and CPF 567.890.123-45, and does not have a dog.",
+        "question": "What are Sofia Ribeiro's RG, CPF, favorite color, favorite dish, what car she drives, and does she have a dog?",
+        "title": "People Information 1"
+    },
+    {
+        "id": 901,
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Family: Isabela (wife, pediatrician), children Gabriel and Sofia. RG 45.678.901-2, CPF 234.567.890-01."
+        },
+        "context": "Lucas Rocha is married to Isabela, a pediatrician, and has two children, Gabriel and Sofia. He has RG 45.678.901-2 and CPF 234.567.890-01.",
+        "question": "Who is in Lucas Rocha's family and what are his RG and CPF?",
+        "title": "People Information 1"
+    },
+    {
+        "id": 902,
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Lucas Rocha has a dog named Max. Sofia Ribeiro does not have a dog. Lucas Rocha: RG 45.678.901-2, CPF 234.567.890-01, favorite color unknown. Sofia Ribeiro: RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green."
+        },
+        "context": "Lucas Rocha and Sofia Ribeiro both have prominent roles in their fields. Lucas has a dog named Max, while Sofia does not have any pets. Their favorite colors and identifiers are known within their profiles.",
+        "question": "Do Lucas Rocha and Sofia Ribeiro have a dog, what are their CPFs, RGs, and favorite colors?",
+        "title": "People Information 1"
+    },
+    {
+        "id": 903,
+        "answers": {
+            "answer_start": [
+                1
+            ],
+            "text": "Isabela Rocha is a pediatrician and the wife of Lucas Rocha. They have two children, Gabriel and Sofia."
+        },
+        "context": "Lucas Rocha is married to Isabela, a pediatrician, and has two children, Gabriel and Sofia. He has RG 45.678.901-2 and CPF 234.567.890-01.",
+        "question": "Who is Isabela Rocha?",
+        "title": "People Information 1"
+    }
+]

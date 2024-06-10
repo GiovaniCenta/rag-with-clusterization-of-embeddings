@@ -8,14 +8,11 @@ sys.path.append("..") # Adds higher directory to python modules path.
 import sys
 sys.path.append("..") # Adds higher directory to python modules path.
 from cluster_methods.hdbscan_methods import *
-from cluster_methods.umap_methods import *
-from cluster_methods.cluster_functions import *
+from cluster_methods.docname_methods import *
 from utils.query_utils import *
 from utils.openai_utils import *
-from find_chunk_methods.search_functions import *
-from find_chunk_methods.find_chunks import *
+
 from utils.plot_utils import *
-from umap_methods import *
 # Assumindo a existência das funções necessárias de pré-processamento e comparação de distâncias em um arquivo auxiliar.
 
 from sklearn.cluster import MeanShift, estimate_bandwidth
@@ -67,22 +64,6 @@ def find_closest_clusters_meanshift(query_embedding, centroids, distance_thresho
 
     return clusters_within_threshold
 
-def find_best_chunks_meanshift(query_embedding, closest_clusters, df, embedding_column_name='umap component'):
-    all_distances = []
-
-    for cluster in closest_clusters:
-        cluster_chunks = df[df['cluster_label'] == cluster]
-        distances = compare_distance_umap(query_embedding, cluster_chunks, umap_component_prefix=embedding_column_name)
-        
-        for idx, distance in distances.items():
-            if idx:
-                all_distances.append((distance, idx))
-
-    all_distances.sort(key=lambda x: x[0])
-    top_distances = all_distances[:5]
-    best_chunks_info = [df.loc[idx] for _, idx in top_distances]
-
-    return best_chunks_info, [dist for dist, _ in top_distances]
 
 
 def find_chunks_in_clusters_meanshift(centroids, query_embedding, df, distance_threshold=0.1, embedding_column_name='embedding'):
@@ -97,15 +78,5 @@ def find_chunks_in_clusters_meanshift(centroids, query_embedding, df, distance_t
         distances[cluster] = distance
     
 
-    for cluster, distance in sorted(distances.items(), key=lambda item: item[1]):
-        print(f"Distance from query to centroid of cluster '{cluster}': {distance}")
-
-    # Identificar os clusters mais próximos com base na distância Euclidiana
-    closest_clusters = find_closest_clusters_meanshift(query_embedding, centroids, distance_threshold=distance_threshold)
-    print("Searching for the best chunks in the following clusters:", closest_clusters)
+    
   
-    ## ok
-    # Adaptar a chamada à função para encontrar os melhores trechos dentro dos clusters identificados
-    best_chunks_info, best_similarities = find_best_chunks_meanshift(query_embedding, closest_clusters, df, embedding_column_name)
-
-    return best_chunks_info, best_similarities

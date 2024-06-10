@@ -1,0 +1,345 @@
+[
+     {
+          "question": "What was achieved with the use of AI-designed gene editors?",
+          "df_answer": "The first successful precision editing of the human genome with a programmable gene editor designed with AI.",
+          "llm_answer": "Precision editing of the human genome with a programmable gene editor designed with AI was achieved.",
+          "total_time": 2.108476161956787,
+          "tokens": 1000
+     },
+     {
+          "question": "What can be achieved by fine-tuning language models on diverse protein sequences?",
+          "df_answer": "They can generate novel proteins adhering to the functional constraints of their family yet diverging significantly in sequence space.",
+          "llm_answer": "By fine-tuning language models on diverse protein sequences, one can create family-specific specialists that generate novel proteins while adhering to functional constraints of their family.",
+          "total_time": 2.216356039047241,
+          "tokens": 1000
+     },
+     {
+          "question": "How do CRISPR-Cas proteins achieve their functionality?",
+          "df_answer": "CRISPR-associated protein families carry out a variety of distinct roles through a common set of domains and structural motifs.",
+          "llm_answer": "CRISPR-Cas proteins achieve their functionality through a guide RNA (gRNA) that is required for target recognition and cleavage. The gRNA consists of a targeting RNA sequence (spacer), CRISPR RNA (crRNA) repeat, and trans-activating CRISPR RNA (tracrRNA).",
+          "total_time": 2.9266581535339355,
+          "tokens": 1000
+     },
+     {
+          "question": "How are sequences classified into their respective CRISPR-Cas families?",
+          "df_answer": "By aligning each sequence to the CRISPR-Cas Atlas using BLAST.",
+          "llm_answer": "Sequences are classified into their respective CRISPR-Cas families based on a 70% identity threshold using MMseqs2.",
+          "total_time": 2.1693313121795654,
+          "tokens": 7000
+     },
+     {
+          "question": "What are adapted exercises?",
+          "df_answer": "Adapted exercises are designed to accommodate individual differences and improve engagement and performance in sports activities.",
+          "llm_answer": "Adapted exercises are exercises designed to support students with overweight by making adjustments to activities to accommodate their fitness levels and needs.",
+          "total_time": 2.312690496444702,
+          "tokens": 7000
+     },
+     {
+          "question": "How can physical enjoyment in sports be increased?",
+          "df_answer": "Physical enjoyment in sports can be enhanced through activities that are appropriately adapted to the participants' capabilities and interests.",
+          "llm_answer": "Physical enjoyment in sports can be increased through adapted physical activity interventions.",
+          "total_time": 1.807307481765747,
+          "tokens": 1000
+     },
+     {
+          "question": "What can reduce perceived difficulty in physical activities?",
+          "df_answer": "Perceived difficulty in physical activities can be significantly reduced by tailoring exercises to the individual's fitness level and preferences.",
+          "llm_answer": "Engagement and involvement in physical activities can reduce perceived difficulty.",
+          "total_time": 1.9607269763946533,
+          "tokens": 4000
+     },
+     {
+          "question": "Why are adaptations important in physical education?",
+          "df_answer": "Adaptations in physical education are crucial for accommodating diverse student needs and enhancing learning outcomes.",
+          "llm_answer": "Adaptations in physical education are important for improving motivation, satisfaction, physical enjoyment, and performance.",
+          "total_time": 2.114501476287842,
+          "tokens": 1000
+     },
+     {
+          "question": "How can student attitudes towards physical education be improved?",
+          "df_answer": "Engaging students in enjoyable and achievable physical activities can lead to a more positive attitude towards sports and education.",
+          "llm_answer": "To improve student attitudes towards physical education, interventions focusing on increasing physical enjoyment, reducing perceived difficulty, and incorporating activities like adapted basketball sessions may be effective.",
+          "total_time": 2.092057228088379,
+          "tokens": 6000
+     },
+     {
+          "question": "How does weather affect sports performance?",
+          "df_answer": "Performance in sports can vary significantly under different weather conditions, with extreme weather potentially impairing both physical and cognitive abilities.",
+          "llm_answer": "Weather can affect sports performance by impacting players' physical and cognitive abilities. High temperatures or heavy precipitation can lead to quicker exhaustion, dehydration, reduced speed, stamina, and decision-making capabilities, negatively affecting outcomes. Cold weather can diminish muscle elasticity and flexibility, increasing the risk of injuries. Additionally, unexpected precipitation can impair vision, make the ball slippery, and turn the field muddy, affecting players' performance in soccer matches.",
+          "total_time": 3.3189070224761963,
+          "tokens": 15919
+     },
+     {
+          "question": "Why might athletes perform poorly in bad weather?",
+          "df_answer": "Athletes can experience a decline in performance during adverse weather conditions due to physiological and psychological stresses.",
+          "llm_answer": "Athletes might perform poorly in bad weather due to factors such as impaired vision, slippery playing surfaces, muddy fields, quicker exhaustion, increased physical strain, dehydration, reduced muscle elasticity, flexibility, and heightened risk of injuries.",
+          "total_time": 2.3642337322235107,
+          "tokens": 3000
+     },
+     {
+          "question": "How can athletes minimize the impact of adverse weather?",
+          "df_answer": "To minimize the impact of adverse weather, athletes can train in varied weather conditions to better adapt and maintain performance levels.",
+          "llm_answer": "Athletes can minimize the impact of adverse weather by upgrading venues to better resist harsh weather, integrating shading and cooling mechanisms, establishing partnerships with meteorological services for specialized weather monitoring, and implementing training programs that simulate challenging weather conditions.",
+          "total_time": 2.7813620567321777,
+          "tokens": 3706
+     },
+     {
+          "question": "Why are older athletes more affected by extreme weather?",
+          "df_answer": "Older athletes may be more susceptible to the effects of extreme weather, potentially due to longer recovery times and less physiological resilience.",
+          "llm_answer": "Older athletes are more affected by extreme weather because high temperatures and heavy precipitation have a more pronounced negative effect on their physical and cognitive abilities compared to younger athletes.",
+          "total_time": 2.4619460105895996,
+          "tokens": 15264
+     },
+     {
+          "question": "What role do sports policies play in dealing with weather conditions?",
+          "df_answer": "Adapting sports policies to account for weather conditions can help ensure the safety and optimal performance of athletes during competitions.",
+          "llm_answer": "Sports policies play a role in dealing with weather conditions by emphasizing the need for strategic planning in match scheduling, venue preparation, player safety, and overall game fairness under various weather fluctuations.",
+          "total_time": 2.239159107208252,
+          "tokens": 2706
+     },
+     {
+          "question": "How can Gemini models transform personalized medicine?",
+          "df_answer": "Gemini models can facilitate personalized treatment plans by adapting to the unique genetic and environmental factors of individual patients.",
+          "llm_answer": "The Gemini models, particularly Med-Gemini, can transform personalized medicine by offering specialized models optimized for different medical capabilities, such as clinical reasoning, multimodal understanding, and long-context processing. These models can efficiently extract and analyze crucial information from vast amounts of patient data, potentially reducing the cognitive load on clinicians and augmenting their capabilities in personalized patient care.",
+          "total_time": 3.2561450004577637,
+          "tokens": 15732
+     },
+     {
+          "question": "What role do Gemini models play in disease prediction?",
+          "df_answer": "By analyzing genetic data alongside environmental factors, Gemini models can predict disease risk with greater accuracy.",
+          "llm_answer": "N/A",
+          "total_time": 1.6557464599609375,
+          "tokens": 1000
+     },
+     {
+          "question": "How do Gemini models improve drug development?",
+          "df_answer": "Gemini models enhance drug development by predicting responses based on genetic variations, leading to more effective and safer medications.",
+          "llm_answer": "Gemini models improve drug development through advanced reasoning capabilities, self-training, web search integration, and multimodal performance, allowing for more efficient handling of long-context inputs in tasks such as medical note summarization, clinical referral letter generation, and biomedical research.",
+          "total_time": 3.0275979042053223,
+          "tokens": 13732
+     },
+     {
+          "question": "What is the significance of genetic markers in Gemini models?",
+          "df_answer": "Gemini models can identify potential genetic markers for diseases, aiding in earlier diagnosis and better therapeutic strategies.",
+          "llm_answer": "The significance of genetic markers in Gemini models is to help identify mechanistic links between specific genes, like FTO, and complex traits such as obesity.",
+          "total_time": 2.359231472015381,
+          "tokens": 1000
+     },
+     {
+          "question": "What benefits do Gemini models offer in clinical trials?",
+          "df_answer": "In clinical trials, Gemini models optimize patient selection and treatment protocols, enhancing the efficacy and efficiency of research.",
+          "llm_answer": "The benefits that Gemini models offer in clinical trials include state-of-the-art performance in a variety of language, reasoning, coding, multimodal, image, and video benchmarks, as well as capabilities for advanced reasoning, multimodal understanding, and long-context processing within the medical domain. They excel in clinical reasoning, multimodal, and long-context capabilities, demonstrating significant advancements in various modalities such as text, images, audio, video, and medical records.",
+          "total_time": 3.237361431121826,
+          "tokens": 13732
+     },
+     {
+          "question": "What are the design features of KANs that improve model performance?",
+          "df_answer": "Kolmogorov\u2013Arnold Networks (KANs) are designed to enhance model interpretability and accuracy by using learnable activation functions and avoiding linear weight matrices.",
+          "llm_answer": "The design features of KANs that improve model performance include:\n\n1. Combination of splines and MLPs, leveraging the strengths of each type of model.\n2. External degrees of freedom for learning compositional structures of multiple variables.\n3. Internal degrees of freedom for learning univariate functions.\n4. Ability to introduce adaptivity in design and training to enhance accuracy and efficiency.",
+          "total_time": 3.1974680423736572,
+          "tokens": 16123
+     },
+     {
+          "question": "In what areas do KANs demonstrate superior performance?",
+          "df_answer": "KANs achieve better scaling and accuracy than traditional models, making them suitable for complex problem-solving in various fields, including physical and mathematical sciences.",
+          "llm_answer": "KANs demonstrate superior performance in representing functions, accuracy in regression and PDE solving tasks, adaptivity in design and training, and effectiveness in science-related tasks such as fitting physical equations and PDE solving.",
+          "total_time": 2.4314138889312744,
+          "tokens": 1921
+     },
+     {
+          "question": "How do KANs contribute to model interpretability?",
+          "df_answer": "KANs offer a significant advantage in interpretability, allowing for easier visualization and interaction with the models, which can facilitate scientific discoveries.",
+          "llm_answer": "KANs contribute to model interpretability by being interpretable and interactive, as demonstrated in the context provided.",
+          "total_time": 2.0262763500213623,
+          "tokens": 4000
+     },
+     {
+          "question": "What distinguishes KANs from traditional neural network models?",
+          "df_answer": "KANs utilize a unique design of learnable activation functions and summing nodes, setting them apart from traditional neural networks that use fixed activation functions.",
+          "llm_answer": "KANs distinguish themselves from traditional neural network models by placing learnable activation functions on edges (weights) instead of fixed activation functions on nodes. This design choice allows KANs to have no linear weight matrices at all, replacing each weight parameter with a learnable 1D function parameterized as a spline.",
+          "total_time": 2.9640588760375977,
+          "tokens": 15948
+     },
+     {
+          "question": "What novel methods do KANs use for problem-solving?",
+          "df_answer": "By employing a fundamentally different architecture involving splines and avoiding traditional weight matrices, KANs provide a novel method for data fitting and solving complex equations.",
+          "llm_answer": "KANs use interpretable functions and learnable activation functions placed on edges, allowing for improved accuracy and efficiency compared to MLPs in problem-solving tasks.",
+          "total_time": 2.483671188354492,
+          "tokens": 15896
+     },
+     {
+          "question": "What are the professional achievements and personal interests of Alex Johnson that contribute to his multifaceted impact on technology, community, and culture?",
+          "df_answer": "Alex Johnson, a seasoned software engineer specializing in machine learning, contributes to tech projects and enhances predictive analytics for e-commerce platforms. Outside of work, he is an avid rock climber and environmental activist, participating in habitat restoration. Additionally, Alex educates on software development at universities, cooks signature dishes blending Asian and European techniques, and writes on the ethical implications of AI in modern industries.",
+          "llm_answer": "Alex Johnson's professional achievements include significant contributions to machine learning in the tech industry, focusing on predictive analytics and user experience optimization. He is also known for conducting workshops on technology and ethical considerations in universities. On a personal level, he is an environmental activist, rock climber, and self-taught chef who blends culinary traditions. Additionally, Alex is a published author on the impact of artificial intelligence.",
+          "total_time": 2.8410391807556152,
+          "tokens": 2005
+     },
+     {
+          "question": "What multifaceted impacts do urban green spaces have on cities and their inhabitants?",
+          "df_answer": "Urban green spaces offer significant benefits by enhancing urban aesthetics, improving mental and physical health, promoting social interactions, and delivering economic advantages. They reduce urban heat, improve air quality, provide recreational areas, foster community interaction, encourage physical activities, increase property values, and help with environmental sustainability. These spaces are integral in urban planning to create healthier and more sustainable urban environments.",
+          "llm_answer": "Urban green spaces have multifaceted impacts on cities and their inhabitants, including environmental benefits like mitigating urban heat island effects and improving air quality, social benefits such as fostering community interaction and reducing stress, mental health benefits by reducing stress and anxiety, economic benefits through increased property values and job opportunities, and physical health benefits like encouraging physical activity and improving cardiovascular health.",
+          "total_time": 2.9804694652557373,
+          "tokens": 2986
+     },
+     {
+          "question": "Can you describe Elena Martinez's professional background, her contributions to environmental policy, her publications, and her philanthropic efforts?",
+          "df_answer": "Elena Martinez, an environmental scientist with a Ph.D. from Stanford, has innovated solar panel technologies, consulted on UN environmental policies, authored 'Green Futures', and founded the 'Green Earth Initiative' focusing on wildlife conservation.",
+          "llm_answer": "Elena Martinez's professional background includes a Ph.D. in Environmental Science from Stanford University, where she focused on sustainable energy. She has contributed to environmental policy as a consultant for the United Nations, shaping international guidelines for urban sustainability initiatives. Martinez is the author of the influential book 'Green Futures: The Path to Sustainable Energy,' has made significant contributions to renewable energy technologies, particularly in enhancing solar panel efficiency. Additionally, she founded the 'Green Earth Initiative' focused on wildlife conservation and philanthropy.",
+          "total_time": 4.050642728805542,
+          "tokens": 3315
+     },
+     {
+          "question": "Can you describe Thomas Rivera's academic achievements, professional recognitions, contributions to cybersecurity technologies, his role in international security policy, and his innovative approaches to education and artificial intelligence in cybersecurity?",
+          "df_answer": "Thomas Rivera, a cybersecurity expert with MIT credentials, has been recognized with the Cyber Pioneer Award, authored significant theses on quantum encryption, developed advanced malware analysis tools, and contributed to international cybersecurity policy. He also leads an academy focused on cyber defense and has innovated AI applications in cybersecurity.",
+          "llm_answer": "Thomas Rivera's academic achievements include graduating with honors from MIT with a groundbreaking thesis on quantum encryption. He has been recognized with the Cyber Pioneer Award for his contributions to cybersecurity, including the development of secure frameworks used in national security communications. Rivera's innovative approaches to cyber threat analysis have revolutionized digital security, with his predictive algorithms protecting critical infrastructure and private data records. Additionally, he has advised the United Nations on cybersecurity policies and is leading a project to use artificial intelligence for more effective responses to cyber threats.",
+          "total_time": 3.2221858501434326,
+          "tokens": 2655
+     },
+     {
+          "question": "Can you provide Carlos Silva\u2019s CPF, RG, and passport numbers, and detail his professional role and family relationships?",
+          "df_answer": "Carlos Silva, born in S\u00e3o Paulo in 1985, holds a Brazilian CPF number 123.456.789-09, RG number 10.987.654-3, and passport number A1234567. As the CTO of TechSolutions in Rio de Janeiro, he has been influential in technological innovations. His family includes his daughter, Ana Silva, and his mother, Maria Silva, who have been significant in his personal and professional life.",
+          "llm_answer": "CPF: 123.456.789-09\nRG: 10.987.654-3\nPassport: A1234567\nProfessional Role: CTO of TechSolutions\nFamily Relationships: Mother - Maria Silva, Daughter - Ana Silva",
+          "total_time": 2.5942611694335938,
+          "tokens": 1518
+     },
+     {
+          "question": "Can you provide Carlos Silva\u2019s CPF?",
+          "df_answer": "CPF number 123.456.789-09.",
+          "llm_answer": "123.456.789-09",
+          "total_time": 1.8295981884002686,
+          "tokens": 209
+     },
+     {
+          "question": "Can you provide Carlos Silva\u2019s RG?",
+          "df_answer": "RG 10.987.654-3.",
+          "llm_answer": "10.987.654-3",
+          "total_time": 1.9035418033599854,
+          "tokens": 221
+     },
+     {
+          "question": "Where was Carlos Silva born?",
+          "df_answer": "Carlos Silva, born in S\u00e3o Paulo.",
+          "llm_answer": "S\u00e3o Paulo.",
+          "total_time": 1.6288096904754639,
+          "tokens": 1110
+     },
+     {
+          "question": "When was Carlos Silva born?",
+          "df_answer": "1985",
+          "llm_answer": "March 15, 1985.",
+          "total_time": 1.7287020683288574,
+          "tokens": 203
+     },
+     {
+          "question": "When and where was Carlos Silva born?",
+          "df_answer": "S\u00e3o Paulo,1985",
+          "llm_answer": "Carlos Silva was born on March 15, 1985, in S\u00e3o Paulo.",
+          "total_time": 4.288343191146851,
+          "tokens": 203
+     },
+     {
+          "question": "What is Carlos Silva's RG and CPF?",
+          "df_answer": "RG 10.987.654-3, CPF number 123.456.789-09.",
+          "llm_answer": "RG number: 10.987.654-3\nCPF number: 123.456.789-09",
+          "total_time": 1.9820191860198975,
+          "tokens": 430
+     },
+     {
+          "question": "What is Carlos Silva's RG and CPF and where he was born?",
+          "df_answer": "RG 10.987.654-3, CPF number 123.456.789-09, he was born in S\u00e3o Paulo.",
+          "llm_answer": "Carlos Silva's RG is 10.987.654-3, his CPF is 123.456.789-09, and he was born in S\u00e3o Paulo.",
+          "total_time": 2.1266980171203613,
+          "tokens": 633
+     },
+     {
+          "question": "What is Carlos Silva's RG,CPF and where and when he was born?",
+          "df_answer": "RG 10.987.654-3, CPF number 123.456.789-09, he was born in S\u00e3o Paulo,1985.",
+          "llm_answer": "RG: 10.987.654-3, CPF: 123.456.789-09, Birthplace: S\u00e3o Paulo, Birthdate: March 15, 1985.",
+          "total_time": 5.068805694580078,
+          "tokens": 1518
+     },
+     {
+          "question": "Retrieve information about people's CPF, RG, and passport numbers.",
+          "df_answer": "Jo\u00e3o Almeida, RG 34.567.890-1, CPF 123.456.789-09, passport number B2345678; Maria Fernandes, RG 23.456.789-0, CPF 987.654.321-09, passport number A1234567; Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890; Carlos Silva, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901; Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012.",
+          "llm_answer": "I dont know.",
+          "total_time": 1.630446434020996,
+          "tokens": 3083
+     },
+     {
+          "question": "Provide professional roles and identification details for any tech and finance professionals listed.",
+          "df_answer": "Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, Software Engineer; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890, Financial Analyst.",
+          "llm_answer": "Carlos Silva - CTO at TechSolutions\nLucas Rocha - Software Engineer\nAna Dias - Financial Analyst\nAlex Johnson - Software Engineer and Machine Learning Specialist",
+          "total_time": 2.2359607219696045,
+          "tokens": 2527
+     },
+     {
+          "question": "What is Carlos Silva's role and what are some key aspects of his professional initiatives?",
+          "df_answer": "Carlos Silva, Digital Marketing Specialist, passport number E5678901, is involved in various initiatives that promote digital literacy and innovative marketing strategies in Fortaleza.",
+          "llm_answer": "Carlos Silva is the CTO of TechSolutions, a software development company. He has led the launch of innovative products impacting the tech industry in Brazil.",
+          "total_time": 2.1011602878570557,
+          "tokens": 258
+     },
+     {
+          "question": "Retrieve information about people's CPF, RG, and passport numbers.",
+          "df_answer": "Jo\u00e3o Almeida, RG 34.567.890-1, CPF 123.456.789-09, passport number B2345678; Maria Fernandes, RG 23.456.789-0, CPF 987.654.321-09, passport number A1234567; Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890; Ferous Ghoul, RG 56.789.012-3, CPF 456.789.012-34, passport number E5678901; Sofia Ribeiro, RG 67.890.123-4, CPF 567.890.123-45, passport number F6789012.",
+          "llm_answer": "I don't know.",
+          "total_time": 1.7118353843688965,
+          "tokens": 3083
+     },
+     {
+          "question": "Provide professional roles and identification details for any tech and finance professionals listed.",
+          "df_answer": "Lucas Rocha, RG 45.678.901-2, CPF 234.567.890-01, passport number C3456789, Software Engineer; Ana Dias, RG 12.345.678-9, CPF 345.678.901-23, passport number D4567890, Financial Analyst.",
+          "llm_answer": "Carlos Silva - CTO at TechSolutions, Rio de Janeiro\nLucas Rocha - Software Engineer in Belo Horizonte, specializes in web applications\nAna Dias - Financial Analyst in Bras\u00edlia, provides investment advice and market analysis\nAlex Johnson - Software Engineer specializing in machine learning, conducts workshops on technology and education",
+          "total_time": 2.9766933917999268,
+          "tokens": 2527
+     },
+     {
+          "question": "What is Ferous Ghoul's role and what are some key aspects of his professional initiatives?",
+          "df_answer": "Ferous Ghoul, Digital Marketing Specialist, passport number E5678901, is involved in various initiatives that promote digital literacy and innovative marketing strategies in Fortaleza.",
+          "llm_answer": "Ferous Ghoul's role is a Digital Marketing Specialist. Some key aspects of his professional initiatives include helping brands build their online presence, engaging global audiences through innovative campaigns, speaking at digital marketing conferences, collaborating on projects for environmental activism, and educating small business owners on cybersecurity and online commerce strategies.",
+          "total_time": 3.011577606201172,
+          "tokens": 1100
+     },
+     {
+          "question": "What is Sofia Ribeiro's CPF and her favorite color?",
+          "df_answer": "CPF 567.890.123-45, favorite color emerald green.",
+          "llm_answer": "N/A.",
+          "total_time": 1.5968520641326904,
+          "tokens": 788
+     },
+     {
+          "question": "What are Sofia Ribeiro's RG, CPF, favorite color, and favorite dish?",
+          "df_answer": "RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green, favorite dish moqueca.",
+          "llm_answer": "I dont know.",
+          "total_time": 1.87644624710083,
+          "tokens": 788
+     },
+     {
+          "question": "What are Sofia Ribeiro's RG, CPF, favorite color, favorite dish, what car she drives, and does she have a dog?",
+          "df_answer": "RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green, favorite dish moqueca, drives a Tesla Model X, does not have a dog.",
+          "llm_answer": "Sofia Ribeiro's RG: 67.890.123-4\nCPF: 567.890.123-45\nFavorite color: emerald green\nFavorite dish: moqueca\nCar she drives: Tesla Model X\nDog: N/A",
+          "total_time": 2.5535504817962646,
+          "tokens": 788
+     },
+     {
+          "question": "Who is in Lucas Rocha's family and what are his RG and CPF?",
+          "df_answer": "Family: Isabela (wife, pediatrician), children Gabriel and Sofia. RG 45.678.901-2, CPF 234.567.890-01.",
+          "llm_answer": "Lucas Rocha's family includes his wife Isabela Rocha, a pediatrician, and their two children Gabriel and Sofia. His RG is 45.678.901-2 and CPF is 234.567.890-01.",
+          "total_time": 2.5580620765686035,
+          "tokens": 745
+     },
+     {
+          "question": "Do Lucas Rocha and Sofia Ribeiro have a dog, what are their CPFs, RGs, and favorite colors?",
+          "df_answer": "Lucas Rocha has a dog named Max. Sofia Ribeiro does not have a dog. Lucas Rocha: RG 45.678.901-2, CPF 234.567.890-01, favorite color unknown. Sofia Ribeiro: RG 67.890.123-4, CPF 567.890.123-45, favorite color emerald green.",
+          "llm_answer": "N/A",
+          "total_time": 1.8099498748779297,
+          "tokens": 1870
+     },
+     {
+          "question": "Who is Isabela Rocha?",
+          "df_answer": "Isabela Rocha is a pediatrician and the wife of Lucas Rocha. They have two children, Gabriel and Sofia.",
+          "llm_answer": "Isabela Rocha is a pediatrician and married to Lucas Rocha.",
+          "total_time": 1.9782307147979736,
+          "tokens": 373
+     }
+]

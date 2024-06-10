@@ -7,97 +7,88 @@ import plotly.graph_objects as go
 
 
 
-def show_findings(best_chunks_info, best_similarities):
+from termcolor import colored
+def print_results(pergunta, df_answer, response, second_prompt_tokens, time_diff):
+    header = colored(f"{'Response info':^60}", 'blue', 'on_white', attrs=['bold', 'underline'])  # Header styling
+    divider = colored('-' * 60, 'red')  # Divider styling
+    pergunta_colored = colored(f"{'Question:':<10}", 'green') + f"{pergunta}"
+    df_answer_colored = colored(f"{'Correct Answer:':<10}", 'magenta') + f"{df_answer}"
+    response_colored = colored(f"{'Test Answer:':<10}", 'yellow') + f"{response}"
+    second_prompt_tokens_colored = colored(f"{'prompt_tokens:':<10}", 'red') + f"{str(second_prompt_tokens)}"
+    time_colored = colored(f"{'Time:':<10}", 'cyan') + f"{time_diff:.2f}s"
+    
+    print(header)
+    print(pergunta_colored)
+    print(df_answer_colored)
+    print(response_colored)
+    print(second_prompt_tokens_colored)
+    print(time_colored)
+    print(divider)
 
-
+def show_findings(best_chunks_info, best_similarities, indexes):
     # Print the information
     header = colored(f"{'Best Chunk Infos':^60}", 'blue', 'on_white', attrs=['bold', 'underline'])  # Header styling
     divider = colored('-' * 60, 'red')  # Divider styling
 
     # Print header
     print(header)
+    print(divider)
+    
+    
 
     # Loop through each of the best chunks and their corresponding similarity
-    for index, (chunk_info, similarity) in enumerate(zip(best_chunks_info, best_similarities), start=1):
-        # Clean the chunk text to remove tab characters
-        
+    for index, (chunk_row, similarity) in enumerate(zip(best_chunks_info, best_similarities), start=1):
+        # Extract information from the chunk row using indexes
+        clean_chunk_text = chunk_row[indexes['chunk_text']].replace('\t', ' ').replace('\n', ' ')[:150]  # Truncated text for display
+        document_name = chunk_row[indexes['document_name']]
+        cluster_label = chunk_row[indexes['cluster_label']]
+
+        # Format rows with color
         print(f"Chunk #{index}:")
-        clean_chunk_text = chunk_info['chunk_text'].replace('\t', ' ')
-        similarity_row = colored(f"{'Best Similarity:':<20}", 'yellow') + str(similarity)
+        similarity_row = colored(f"{'Best Similarity:':<20}", 'yellow') + f"{similarity:.4f}"
+        document_row = colored(f"{'Document Name:':<20}", 'green') + document_name
+        cluster_row = colored(f"{'Cluster:':<20}", 'blue') + str(cluster_label)
+        text_row = colored(f"{'Chunk Text:':<20}", 'cyan') + clean_chunk_text + "..."
+
+        # Print each row
         print(similarity_row)
-        document_row = colored(f"{'Document Name:':<20}", 'green') + chunk_info['document_name']
         print(document_row)
-        try:
-            cluster_row = colored(f"{'Cluster:':<20}", 'blue') + str(chunk_info['cluster_label'])
-            print(cluster_row)
-            init_page_row = colored(f"{'Initial Page:':<20}", 'magenta') + str(chunk_info['init_page'])
-            end_page_row = colored(f"{'End Page:':<20}", 'magenta') + str(chunk_info['end_page'])
-        except KeyError:
-            cluster_row = colored(f"{'Cluster:':<20}", 'blue') + str(chunk_info['document_name'])
-            print(cluster_row)
-        text_row = colored(f"{'Chunk Text:':<20}", 'cyan') + clean_chunk_text + "..."  # Truncated text for display
-
-
-        # Print individual chunk details
-        
-        
-        
-        
+        print(cluster_row)
         print(text_row)
+        print(divider)  # Print divider after each chunk's information
+    
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+def plot_clusters(data,indexes):
+    # Apply t-SNE for visualization
+    pca_components = np.vstack(data[:, indexes["pca_components"]])
+    tsne = TSNE(n_components=2, random_state=42)
+    tsne_results = tsne.fit_transform(pca_components)
+
+    # Plotting the t-SNE results
+    plt.figure(figsize=(12, 8))
+    plt.scatter(tsne_results[:, 0], tsne_results[:, 1], c=data[:, indexes['cluster_label']], cmap='viridis', alpha=0.6)
+    plt.colorbar()
+    plt.title('t-SNE visualization of clustering')
+    plt.xlabel('t-SNE component 1')
+    plt.ylabel('t-SNE component 2')
+    plt.show()
+
+
+def log_results(output_file, query_text, df_answer, llm_answer, current_token_count, total_time, best_contexts, best_similarities):
         
-
-    
-def plot_clusters_2_components(df,plot=False):
-
-    # Plot initialization
-    fig = go.Figure()
-    colors = {
-        'Harry Potter e a Pedra Filosofal.pdf': 'red',
-        'Harry Potter e a Câmara Secreta.pdf': 'green',
-        'Harry Potter e o prisioneiro de Azkaban.pdf': 'blue',
-        'Harry Potter e o Cálice de Fogo.pdf': 'yellow',
-        'Harry Potter e a Ordem da Fênix.pdf': 'cyan',
-        'Harry Potter e o Enigma do Príncipe.pdf': 'magenta',
-        'Harry Potter e as Relíquias da Morte.pdf': 'grey'
-    }
-    centroids = {}
-
-    # Add traces for each book
-    for book, color in colors.items():
-        book_df = df[df['document_name'] == book]
-        fig.add_trace(go.Scatter(
-            x=book_df['principal component 1'], 
-            y=book_df['principal component 2'],
-            text=book_df['first_15_words'],  # Display on hover
-            mode='markers',
-            marker_color=color,
-            name=book
-        ))
-        book_df = df[df['document_name'] == book]
-        centroid = book_df[['principal component 1', 'principal component 2']].mean().values
-        centroids[book] = centroid  # Store the centroid
-        fig.add_trace(go.Scatter(
-            x=[centroid[0]], 
-            y=[centroid[1]],
-            text=[book],  # Book name for centroid hover
-            mode='markers+text',
-            marker_symbol='x',
-            marker_size=12,
-            marker_color='black',
-            showlegend=False,
-            textposition="top center"
-        ))
-
-    # Customize layout
-    fig.update_layout(
-        title='PCA of Book Embeddings with Centroids',
-        xaxis_title='Principal Component 1',
-        yaxis_title='Principal Component 2',
-        legend_title='Book Name'
-    )
-
-    # Show plot
-    if plot:
-        fig.show()
-    
-    return df,fig,centroids
+    output_file.write(  f" = = = = = = = = = = = = = = = = = = = = = = == = = = = = = = = = = == = = = = = = = = = = = = = == \n")
+    output_file.write(  f"Question: {query_text}\n")
+    output_file.write(  f"Answer: {df_answer}\n")
+    output_file.write(  f"Answer from LLM: {llm_answer}\n")
+    output_file.write(  f"Total time: {total_time:.2f}\n")
+    output_file.write(  f"Tokens: {current_token_count}\n")
+    output_file.write(  f"Best contexts:\n")
+    for best_context,best_similarity in zip(best_contexts,best_similarities):
+        #sabe chunk with similarity
+        output_file.write(  f"Similarity: {best_similarity} || Chunk: {best_context[indexes_context['chunk_text']]}\n")
+    output_file.write(  f"Similarties\n")
+    output_file.write(  f"{best_similarities}\n")
+    output_file.write(  f" = = = = = = = = = = = = = = = = = = = = = = == = = = = = = = = = = == = = = = = = = = = = = = = == \n")
+    output_file.write(  f"\n")
+    #Filter similarities

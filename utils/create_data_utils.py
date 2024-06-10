@@ -6,12 +6,10 @@ import PyPDF2  # Import PyPDF2
 import sys
 sys.path.append("..") # Adds higher directory to python modules path.
 from cluster_methods.hdbscan_methods import *
-from cluster_methods.umap_methods import *
-from cluster_methods.cluster_functions import *
+from cluster_methods.docname_methods import *
 from utils.query_utils import *
 from utils.openai_utils import *
-from find_chunk_methods.search_functions import *
-from find_chunk_methods.find_chunks import *
+
 from utils.plot_utils import *
 import pandas as pd
 
